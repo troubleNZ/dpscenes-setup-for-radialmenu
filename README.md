@@ -1,7 +1,12 @@
 # dpscenes-setup-for-radialmenu
-add dpscene commands to the qb-radialmenu
+### Add dpscene commands to the qb-radialmenu
 
-##Step 1 - add to qb-radialmenu config
+Dependencies:
+- [qb-radialmenu](https://github.com/qbcore-framework/qb-radialmenu)
+- [qb-input](https://github.com/qbcore-framework/qb-input)
+- [dpscenes](https://github.com/andristum/dpscenes)
+
+## Step 1 - add to qb-radialmenu config
 
 Config.lua
 ```lua
@@ -44,7 +49,7 @@ Config.lua
     },
 ```
 
-##Step 2 - add to qb-radialmenu/client/main.lua
+## Step 2 - add to qb-radialmenu/client/main.lua
 ```lua
 -- dpscenes triggered via radialmenu
 -- player entry field
@@ -62,7 +67,7 @@ local dialog = exports['qb-input']:ShowInput({
 end)
 ```
 
-##Step 3 - add to dpscenes/Client/Scenes.lua
+## Step 3 - add to dpscenes/Client/Scenes.lua
 
 ```lua
 
@@ -124,7 +129,7 @@ AddEventHandler('trbl:client:dpscene:scenemove',function()
 end)
 ```
 
-##Step 4 - add to dpscenes/Server/Scenes.lua
+## Step 4 - add to dpscenes/Server/Scenes.lua
 ```
 RegisterNetEvent('trbl:dpscene:server:SceneInput')
 AddEventHandler('trbl:dpscene:server:SceneInput',function(Arguments)
