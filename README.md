@@ -1,3 +1,8 @@
+![Commits](https://img.shields.io/github/last-commit/troublenz/trbl-LicensePed?style=plastic) 
+![OpenIssues](https://img.shields.io/github/issues/troublenz/trbl-LicensePed?style=plastic) 
+![Contributors](https://img.shields.io/github/contributors/troublenz/trbl-LicensePed?color=aqua&style=plastic) 
+![Size](https://img.shields.io/github/repo-size/troublenz/trbl-LicensePed?color=aqua&style=plastic) 
+![Languages](https://img.shields.io/github/languages/top/troublenz/trbl-LicensePed?color=aqua&style=plastic)
 # dpscenes-setup-for-radialmenu
 ### Add dpscene commands to the qb-radialmenu
 
